@@ -39,7 +39,7 @@ export default function CardsSection() {
 
     return(
         <>
-            <div className="grid grid-cols-3 grid-rows-3 gap-6 p-6">
+            <div className="grid grid-cols-3 grid-rows-2 gap-6 p-6">
             {contentArray.map((i) => (
                 <div
                 key={i}

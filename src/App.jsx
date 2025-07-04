@@ -1,30 +1,28 @@
-import CardsSection from './components/CardsSection'
-import CarouselFour from './components/CarouselFour'
-import CarouselOne from './components/CarouselOne'
-import CarouselThree from './components/CarouselThree'
-import CarouselTwo from './components/CarouselTwo'
-import HeroContainer from './components/HeroContainer'
-import Navbar from './components/Navbar'
-import Process from './components/Process'
-import Services from './components/Services'
-import Showcase from './components/Showcase'
+// App.jsx
+import React from 'react';
+import { Routes, Route } from 'react-router-dom'; // <--- Only import Routes and Route here
+
+// Import common layout components
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+
+// Import your page components
+import Home from './pages/Home/Home';
+import Work from './pages/Work/Work';
 
 function App() {
-
   return (
-    <div>
-      <Navbar />      
-      <HeroContainer />
-      <CarouselOne />
-      <CarouselTwo />
-      <CardsSection />
-      <CarouselThree />
-      <CarouselFour />
-      <Services />
-      <Process />
-      <Showcase />
-    </div>
-  )
+    <> 
+      <Navbar />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/works" element={<Work />} />
+      </Routes>
+
+      <Footer />
+    </>
+  );
 }
 
-export default App
+export default App;

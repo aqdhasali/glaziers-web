@@ -1,7 +1,7 @@
-import ConsulImg from '../assets/images/consultation.jpeg';
-import DesignImg from '../assets/images/design.jpeg';
-import InstallImg from '../assets/images/installing.jpeg';
-import MaintainImg from '../assets/images/maintainence.jpeg';
+import ConsulImg from '../../assets/images/consultation.jpeg';
+import DesignImg from '../../assets/images/design.jpeg';
+import InstallImg from '../../assets/images/installing.jpeg';
+import MaintainImg from '../../assets/images/maintainence.jpeg';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';

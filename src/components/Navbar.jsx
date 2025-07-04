@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../assets/images/logo.png";
+import Work from "../pages/Work/Work";
 
 export default function Navbar() {
   const activeLinkStyle = "bg-[#131839] text-[#e1e3ea] rounded-2xl px-3 py-1";
@@ -31,7 +32,7 @@ export default function Navbar() {
             </li>
             <li>
               <NavLink
-                to="/works"
+                to={"/works"}
                 className={({ isActive }) =>
                   `text-lg text-[#131839] hover:text-[#e1e3ea] transition duration-300 ease-in-out ${
                     isActive ? activeLinkStyle : ""

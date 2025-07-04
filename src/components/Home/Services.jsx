@@ -1,4 +1,4 @@
-import cardBg from '../assets/images/card-bg.jpeg';
+import cardBg from '../../assets/images/card-bg.jpeg';
 export default function Services(){
     return(
         <div className="p-10">

@@ -13,7 +13,7 @@ const dummyImages = [
 export default function CarouselOne() {
     return(
         <>
-            <div className="flex justify-center items-center">
+            <div className="flex mt-10 justify-center items-center">
                 <h1 className="text-l text-center mb-6 text-[#575f75]">We use industry standard tools and technologies</h1>
             </div>
             

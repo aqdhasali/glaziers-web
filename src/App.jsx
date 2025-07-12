@@ -12,8 +12,8 @@ import Work from './pages/Work/Work';
 
 function App() {
   return (
-    <> 
-      <Navbar />
+    <div className='bg-[#F8F7F9]'> 
+      {/* <Navbar /> */}
 
       <Routes>
         <Route path="/" element={<Home />} />
@@ -21,7 +21,7 @@ function App() {
       </Routes>
 
       <Footer />
-    </>
+    </div>
   );
 }
 

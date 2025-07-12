@@ -97,10 +97,10 @@ export default function CarouselFour(){
                     </SwiperSlide> */}
                 </div>
                 <div className="flex flex-col p-2 w-1/2 gap-2">
-                    <h1 className="text-[#6689ff] font-medium text-lg">Lorem ipsum dolor set</h1>
-                    <h1 className="font-medium text-4xl">Lorem ipsum dolor set Lorem ipsum dolor set</h1>
+                    <h1 className="text-[#6689ff] font-medium text-lg">Why Choose Us?</h1>
+                    <h1 className="font-medium text-4xl">Unmatched Quality with a Clear Difference</h1>
                     <ul className="space-y-4">
-                        {["Lorem ipsum dolor set ", "Lorem ipsum dolor set ", "Lorem ipsum dolor set "].map((text, idx) => (
+                        {["Australian-Made Glass", "Fast & Reliable Service", "Expert Consultation"].map((text, idx) => (
                             <li
                             key={idx}
                             className="flex items-center border border-blue-400 rounded-full px-4 py-2 w-fit"

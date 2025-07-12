@@ -1,6 +1,6 @@
 export default function Testimonial() {
   return (
-    <div className="flex min-h-screen bg-white">
+    <div className="flex min-h-screen">
       {/* Left: Fixed Header Section */}
       <div className="w-1/2 flex flex-col gap-10 items-center p-10 sticky top-0 h-screen">
         <div className="bg-[#6689ff] w-30 flex items-center justify-center h-9 rounded-2xl border mb-5">

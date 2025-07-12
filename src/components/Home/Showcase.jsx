@@ -3,8 +3,8 @@ import React, { useState } from "react";
 const cards = [
   {
     size: "large",
-    title: "SAP – SaaS Landing Page",
-    desc: "A Light-themed SaaS template",
+    title: "Coastal Serenity – Byron Bay, NSW",
+    desc: "Frameless glass balustrades and panoramic windows were installed in this luxury beach home to maximize ocean views while ensuring structural safety and wind resistance.",
     images: [
       "https://res.cloudinary.com/dwfus9h95/image/upload/f_auto,q_auto/v1/Glaziers/pr8um8nygwiuyemmvpeh",
       "https://res.cloudinary.com/dwfus9h95/image/upload/f_auto,q_auto/v1/Glaziers/gekmvyrdz7nao0jxzknp",
@@ -13,8 +13,8 @@ const cards = [
   },
   {
     size: "large",
-    title: "Waitlista — Landing Page",
-    desc: "A dark-themed landing page template",
+    title: "Skyline Apartments – Melbourne CBD, VIC",
+    desc: "A modern high-rise fitted with double-glazed acoustic windows to reduce city noise and enhance thermal insulation. Perfect for high-density urban living.",
     images: [
       "https://res.cloudinary.com/dwfus9h95/image/upload/f_auto,q_auto/v1/Glaziers/nuwf73q0rlogkeoyqibm",
       "https://res.cloudinary.com/dwfus9h95/image/upload/f_auto,q_auto/v1/Glaziers/tcnvmt1hkls6st5xbhf1",
@@ -23,8 +23,8 @@ const cards = [
   },
   {
     size: "medium",
-    title: "Waitlisty — Landing Page",
-    desc: "A Light-themed landing page template",
+    title: "Horizon Co-Working – Brisbane, QLD",
+    desc: "Custom glass roofing and sliding patio doors created a seamless indoor-outdoor experience in this architect-designed eco-home surrounded by nature.",
     images: [
       "https://res.cloudinary.com/dwfus9h95/image/upload/f_auto,q_auto/v1/Glaziers/pr8um8nygwiuyemmvpeh",
       "https://res.cloudinary.com/dwfus9h95/image/upload/f_auto,q_auto/v1/Glaziers/nuwf73q0rlogkeoyqibm",
@@ -33,8 +33,8 @@ const cards = [
   },
   {
     size: "medium",
-    title: "Pix – Portfolio Landing Page",
-    desc: "A dark-themed portfolio template",
+    title: "Luxe Bath Escape – Perth, WA",
+    desc: "Installation of frameless shower screens and mirrored feature panels added elegance and light to a small ensuite space in this suburban renovation.",
     images: [
       "https://res.cloudinary.com/dwfus9h95/image/upload/f_auto,q_auto/v1/Glaziers/nx8l8orqehscys0enlyc",
       "https://res.cloudinary.com/dwfus9h95/image/upload/f_auto,q_auto/v1/Glaziers/gekmvyrdz7nao0jxzknp",
@@ -43,8 +43,8 @@ const cards = [
   },
   {
     size: "medium",
-    title: "LandFree — Dark Landing Page",
-    desc: "Dark Landing Page website template",
+    title: "Sapphire Pool Deck – Gold Coast, QLD",
+    desc: "A custom toughened glass pool fence was installed to meet safety standards without compromising the client’s ocean-view aesthetic.",
     images: [
       "https://res.cloudinary.com/dwfus9h95/image/upload/f_auto,q_auto/v1/Glaziers/tcnvmt1hkls6st5xbhf1",
       "https://res.cloudinary.com/dwfus9h95/image/upload/f_auto,q_auto/v1/Glaziers/pr8um8nygwiuyemmvpeh",

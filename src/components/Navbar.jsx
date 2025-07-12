@@ -9,7 +9,7 @@ const Navbar = () => {
 
   const handleNavigation = (page) => {
     setCurrentPage(page);
-    setIsMobileMenuOpen(false); // Close mobile menu on navigation
+    setIsMobileMenuOpen(false);
   };
 
   const toggleMobileMenu = () => {

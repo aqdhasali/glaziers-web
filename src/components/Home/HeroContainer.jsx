@@ -19,11 +19,15 @@ export default function HeroContainer() {
         opacity: 0,
         duration: 1,
       })
-      .from(subTextRef.current, {
-        y: 30,
-        opacity: 0,
-        duration: 0.8,
-      }, "-=0.6");
+      .from(
+        subTextRef.current,
+        {
+          y: 30,
+          opacity: 0,
+          duration: 0.8,
+        },
+        "-=0.6"
+      );
   }, []);
 
   return (
@@ -45,25 +49,26 @@ export default function HeroContainer() {
         <Navbar />
       </div>
 
-      {/* Animated Hero Content */}
+      {/* Hero Content */}
       <div
         ref={containerRef}
-        className="relative z-10 flex-1 flex items-center justify-center text-center p-10"
+        className="relative z-10 flex-1 flex items-center justify-center text-center px-4 sm:px-6 md:px-10 py-10"
       >
-        <div className="p-8">
+        <div className="p-4 sm:p-6 md:p-8 max-w-[90vw] sm:max-w-[600px] lg:max-w-[800px]">
           <h1
             ref={headingRef}
-            className="text-5xl text-white font-medium mb-4"
+            className="text-3xl sm:text-4xl md:text-5xl text-white font-medium mb-4 leading-snug"
           >
-            Premium Glass Solutions Tailored<br />for Australian Homes
+            Premium Glass Solutions Tailored
+            for Australian Homes
           </h1>
           <p
             ref={subTextRef}
-            className="text-xl mb-6 text-white/90"
+            className="text-base sm:text-lg md:text-xl mb-6 text-white/90"
           >
             Elevating Your Homes with Stylish & Durable Glass Installations
           </p>
-          <button className="bg-[#232e6e] text-white px-4 py-2 rounded-3xl hover:bg-[#154bff] hover:text-[#e1e3ea] transition duration-300 ease-in-out">
+          <button className="bg-[#232e6e] text-white px-5 py-2 sm:px-6 sm:py-2.5 rounded-3xl hover:bg-[#154bff] hover:text-[#e1e3ea] transition duration-300 ease-in-out text-sm sm:text-base">
             Get Quote -{">"}
           </button>
         </div>

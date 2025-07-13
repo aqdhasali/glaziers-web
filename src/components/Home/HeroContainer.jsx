@@ -60,7 +60,7 @@ export default function HeroContainer() {
             className="text-3xl sm:text-4xl md:text-5xl text-white font-medium mb-4 leading-snug"
           >
             Premium Glass Solutions Tailored
-            for Australian Homes
+            for Australian Homes 
           </h1>
           <p
             ref={subTextRef}

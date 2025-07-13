@@ -2,7 +2,7 @@ export default function Testimonial() {
   return (
     <div className="flex flex-col lg:flex-row min-h-screen">
       {/* Left: Fixed Header Section */}
-      <div className="w-full lg:w-1/2 flex flex-col gap-10 items-center p-6 sm:p-10 sticky top-0 h-auto lg:h-screen z-10">
+      <div className="w-full lg:w-1/2 bg-[#f8f7f9] flex flex-col gap-10 items-center p-6 sm:p-10 sticky top-0 h-auto lg:h-screen z-10">
         <div className="bg-[#6689ff] w-36 flex items-center justify-center h-9 rounded-2xl border mb-5">
           <h2 className="font-medium text-white">Testimonials</h2>
         </div>

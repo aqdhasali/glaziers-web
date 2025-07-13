@@ -21,7 +21,7 @@ const Navbar = () => {
   return (
     <div className="flex items-center pt-10 justify-center w-full">
       <nav
-        className="p-4 md:p-6 lg:p-4 flex border bg-white/60 backdrop-blur-sm items-center border-black w-11/12 max-w-5xl rounded-lg justify-between gap-2"
+        className="p-4 md:p-6 lg:p-4 flex lg:fixed lg:mt-4 bg-white/60 backdrop-blur-sm items-center border-black w-11/12 max-w-5xl rounded-lg justify-between gap-2"
         style={{ borderRadius: "40px" }} 
       >
         <div className="flex items-center">

@@ -32,7 +32,6 @@ export default function HeroContainer() {
 
   return (
     <div className="relative flex flex-col justify-center items-center min-h-screen overflow-hidden">
-      {/* Background Video */}
       <video
         autoPlay
         loop
@@ -44,12 +43,10 @@ export default function HeroContainer() {
         Your browser does not support the video tag.
       </video>
 
-      {/* Navbar */}
       <div className="w-full z-20">
         <Navbar />
       </div>
 
-      {/* Hero Content */}
       <div
         ref={containerRef}
         className="relative z-10 flex-1 flex items-center justify-center text-center px-4 sm:px-6 md:px-10 py-10"
